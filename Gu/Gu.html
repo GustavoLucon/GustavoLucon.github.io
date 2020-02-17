@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="GuCss.css">
+<script type="text/javascript" src="GuJava.js"></script>
+<title>Gustavo Pestana Lucon</title>
+</head>
+<body>
+ 
+ <div class="esquerda">
+  <img class="img-circle" src="../img/Gu.jpg" style="width:200px;height:200px;">
+  <a href="../Sam/Sam.html"><img class="link" src="../img/sam.jpg" style="width:150px;height:150px;"></a>
+  <a href="../Nat/Nat.html"><img class="link" src="../img/nat.jpg" style="width:150px;height:150px;"></a>
+</div>
+ <div class="direita">
+  <font size="+6">Gustavo Pestana Lucon</font><br>
+  <font size="+3">Desenvolvedor e Programador</font><br>
+ <font size="+1"> 
+Brasileiro, 27 anos, solteiro<br>
+Telefone: (11) 98708-6605<br>
+Rua Sempre Vivas, 337 – Brooklin, São Paulo/SP, Cep: 04704-030<br>
+Carteira de Habilitação: Categoria-B<br><br>
+</font>
+
+<div class="direita1">
+ <font size="+3">FORMAÇÃO:</font><br>
+ Engenharia da computação – Anhembi Morumbi<br>
+ &nbsp &nbsp Grau de Formação - (2015 - 2019) - Concluido <br><br>
+
+ <font size="+3">PROGRAMAÇÃO:</font><br>
+C++, C#, CSV, Java (Automação, Android e VR)<br><br>
+
+<font size="+3">BANCO DE DADOS:</font><br>
+MySQL<br><br>
+
+ <font size="+3">APLICATIVOS:</font><br>
+Pacote Office(Outlook, Access, Excel, Word, Power Point), Microsoft Project 2010, Pacote BrOffice, Unreal
+Engine, SketchUp (Básico), FreePBX, Moodle, Putty, Edge Animator
+OS:
+Windows 98 - Windows 10, Linux (Ubuntu), Mac OS (10.6 - 10.10)<br><br>
+ <font size="+3">IDIOMA:</font><br>
+Inglês: Avançado<br>
+Espanhol: Básico<br><br>
+ <font size="+3">CURSOS ADICIONAIS:</font><br>
+FGV – Marketing e Vendas – Produto, marca e serviços
+Carga Horaria de 5 horas.
+</div>
+<div class="direita2">
+ <font size="+3">EXPERIÊNCIA PROFISSIONAL:</font><br>
+
+<button class="accordion">Habib’s - Analista de Digital Signage | Trade Marketing - (10/2017 - 06/2019)</button>
+<div class="panel">
+  <font size="+1">
+  Gerencia dos conteúdos do menu digital em todas as lojas do Grupo Habib's, Ragazzo , Ragazzo Express e
+Churrascaria Tendall podendo em casos fazer o controle por grupos ou granular (via fornecedor quando por
+conta propria).<br><br>
+Verificação e cumprimento de metas e contratos de parceiros.<br><br>
+Testes e homologação de novas tecnologias para melhora constante de serviços e processos.<br><br>
+Identificação de oportunidades por meio dos estudos e análises de comportamento dos shoppers e
+concorrentes.<br><br>
+Visitas aos PDV's tanto para fins técnicos quanto para sugestões de melhorias a loja.<br><br>
+Participação do processo de rebranding da marca Ragazzo.<br><br>
+Participação chave no processo com novos fornecedores na area de Digital Sign.<br>
+</div>
+<button class="accordion">FGX Brasil - Analista de Suporte - (04/2017 – 10/2017)</button>
+<div class="panel">
+  <p>Fazer manutenção de servidores de VOIP e Web, automatizar tarefas usando Java, construção de ambiente
+3D usando Unreal Engine, criar animações usando Animate, Web Development (Usando PHP, Java script e
+CSS), montagem e configuração de componentes, desenvolvimento de conteúdos para materiais gráficos,
+cursos online, vídeos institucionais, e-mail marketing, atendimento ao cliente e suporte a usuário local.</p>
+</div>
+<button class="accordion">Atento Brasil - Operador de Suporte Técnico Bilíngue - (06/2014 - 03/2016)</button>
+<div class="panel">
+  <p>Auxiliar usuários de computadores a configurar, reparar e utilizar, fazendo registros em inglês de todas as
+operações fornecidas e em alguns casos consultando setores internacionais.</p>
+</div>
+<button class="accordion">Caixa Econômica Federal - Estagiário de Help Desk - (09/2011 - 12/2012)</button>
+<div class="panel">
+  <p>Help Desk, suporte local, abertura e acompanhamento de chamados, instalação e manutenção de
+computadores (Software e Hardware), acesso remoto e suporte à rede de dados e telefonia, trabalho com
+Processo judicial eletrônico (PJE) e certificados eletrônicos.</p>
+</div>
+
+<button class="accordion">RML Sistemas - Estagiário de Help Desk - (05/2010 - 03/2011))</button>
+<div class="panel">
+  <p>Help Desk, Programador (Java e Clipper).</p>
+</div>
+</div>
+
+
+<div class="contatos">
+<a href="https://www.linkedin.com/in/gustavo-pestana-lucon.com"><img src="../img/Linkedin.png" style="width: 100px;"></a>
+<a href = "tel:+55011987086605"><img src="../img/Phone.png" style="width: 100px;"></a>
+<a href = "mailto: gustavoplucon@gmail.com"><img src="../img/Email.png" style="width: 100px;"></a>
+<a href="https://web.whatsapp.com/send?phone=5511987086605?text=Contato%20Site"><img src="../img/Whats.png" style="width: 100px;"></a>
+	 </div>
+
+</div>
+	 <div class="home">
+<a href="../HomeBase.html"><img src="../img/home.png" style="width: 75px;"></a>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+    	var setClasses = !this.classList.contains('active');
+        setClass(acc, 'active', 'remove');
+        setClass(panel, 'show', 'remove');
+        
+       	if (setClasses) {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+}
+
+function setClass(els, className, fnName) {
+    for (var i = 0; i < els.length; i++) {
+        els[i].classList[fnName](className);
+    }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.BoxCentro {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom{
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+		
+	    -webkit-transition: opacity 0.8s ease-in;
+       -moz-transition: opacity 0.8s ease-in;
+        -ms-transition: opacity 0.8s ease-in;
+         -o-transition: opacity 0.8s ease-in;
+            transition: opacity 0.8s ease-in;
+}
+
+.img-circle {
+    border-radius: 50%;
+	padding: 10px;
+}
+.img-circle2 {
+    border-radius: 50%;
+	padding: 10px;
+}
+.img-circle3 {
+    border-radius: 50%;
+	padding: 10px;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: linear-gradient(310deg, #b9bdce, #0e760d, #1b4db2, #000207);
+background-size: 800% 800%;
+
+-webkit-animation: Gradiente 27s ease infinite;
+-moz-animation: Gradiente 27s ease infinite;
+animation: Gradiente 27s ease infinite;
+}
+	
+    
+@-webkit-keyframes Gradiente {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes Gradiente {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes Gradiente { 
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+.TituloMain {
+	align-content: center;
+	text-align: center;
+font-family:Times New Roman, serif;
+	font-size: 50px;
+	color: black;
+}
+
+.SubTituloMain {
+	align-content: center;
+	text-align: center;
+font-family:Times New Roman, serif;
+	font-size: 30px;
+	color: black;
+}
+
+.boxed {
+	background-color: white;
+	border-radius: 50%;
+}

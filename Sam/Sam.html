@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="SamCss.css">
+<script type="text/javascript" src="SamJava.js"></script>
+<title>Samua Furlan Jacyntho</title>
+</head>
+<body>
+ 
+ <div class="esquerda">
+  <img class="img-circle" src="../img/sam.jpg" style="width:200px;height:200px;">
+  <a href="../Gu/Gu.html"><img class="link" src="../img/Gu.jpg" style="width:150px;height:150px;"></a>
+  <a href="../Nat/Nat.html"><img class="link" src="../img/nat.jpg" style="width:150px;height:150px;"></a>
+</div>
+ <div class="direita">
+  <font size="+6">Samua Furlan Jacyntho</font><br>
+  <font size="+3">Barista</font><br>
+ <font size="+1"> 
+Brasileira, 28 anos, solteiro<br>
+Telefone: (11) 95389-0251<br>
+Rua Sempre Vivas, 337 – Brooklin, São Paulo/SP, Cep: 04704-030<br><br>
+
+</font>
+
+<div class="direita1">
+ <font size="+3">FORMAÇÃO:</font><br>
+Psicologia pela Universidade Nove de Julho - 3° Semestre– Trancado (2018) <br>
+Tecnologia em Gastronomia pela FMU - 2013 <br><br>
+
+ <font size="+3">ATIVIDADES EXTRACURRÍCULARES:</font><br>
+Curso de Barista Jr – Coffee Lab - 2018<br>
+Curso de formação para estágio – Associação De Amigos Do Autista - 2018<br>
+Informática Básica - S.O.S Educação Profissional – 2009.<br><br>
+
+<font size="+3">QUALIFICAÇÕES:</font><br>
+ Responsável, dedicada e dinâmica<br>
+ Fácil aprendizagem<br>
+ Ótima comunicação interpessoal<br><br>
+
+</div>
+<div class="direita2">
+ <font size="+3">EXPERIÊNCIA PROFISSIONAL:</font><br>
+
+<button class="accordion">Coffe Lab -Barista - (10/2018 - 07/2019) <img src="../img/CL.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <font size="+1">
+Atender os clientes, preparar cafés, bebidas e pequenas refeições, realizar abertura e fechamento do estabelecimento.
+</div>
+<button class="accordion">Coffe Lab -Cummin - (08/2018 - 10/2018) <img src="../img/CL.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Recepcionar os clientes e realizar manutenção do salão.</p>
+</div>
+<button class="accordion">Tea Hub Shopping Pátio Higienópolis - Atendente Barista - (12/2016 - 03/2017) <img src="../img/TH.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Atender os clientes, preparar chás e operar caixa.</p>
+</div>
+<button class="accordion">Ótica Tanaka - Escriturária - (08/2015 - 04/2016) <img src="../img/OT.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Atender os clientes pessoalmente e por telefone, elaborar carnê, lançar dados no sistema, consultar SPC, fazer cobranças, realizar depósitos e pagamentos..</p>
+</div>
+<button class="accordion">Viciados em Brigadeiro - Atendente - (05/2014 - 04/2015) <img src="../img/VB.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Atender e servir cliente, operar caixa.</p>
+</div>
+<button class="accordion">Le Jardin Secret - Estagiaria - (06/2013 - 12/2013) <img src="../img/LJ.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Produzir massas, bolos e sobremesas.</p>
+</div>
+<button class="accordion">Marie-Madeleine Boutique Gourmet - Estagiaria - (03/2013 - 05/2012) <img src="../img/MM.png" style="width: 25px;height: 17px;"></button>
+<div class="panel">
+  <p>Fazer embalagens, auxiliar em pré-preparo.</p>
+</div>
+</div>
+
+
+<div class="contatos">
+<a href = "tel:+55011953890251"><img src="../img/Phone.png" style="width: 100px;"></a>
+<a href = "mailto: furlansamua@gmail.com"><img src="../img/Email.png" style="width: 100px;"></a>
+<a href="https://web.whatsapp.com/send?phone=5511953890251?text=Contato%20Site"><img src="../img/Whats.png" style="width: 100px;"></a>
+	 </div>
+</div>
+	 <div class="home">
+<a href="../HomeBase.html"><img src="../img/home.png" style="width: 75px;"></a>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+    	var setClasses = !this.classList.contains('active');
+        setClass(acc, 'active', 'remove');
+        setClass(panel, 'show', 'remove');
+        
+       	if (setClasses) {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+}
+
+function setClass(els, className, fnName) {
+    for (var i = 0; i < els.length; i++) {
+        els[i].classList[fnName](className);
+    }
+}
+
+</script>
+
+</body>
+</html>
